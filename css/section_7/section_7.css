@@ -1,0 +1,8 @@
+.section_7 img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.section_7 .col {
+  overflow: hidden;
+}

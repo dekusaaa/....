@@ -1,0 +1,87 @@
+.section_9{
+    .field{
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        input{
+            all: unset;
+            border-bottom: 1px solid rgba($color: white, $alpha: 0.3);
+            padding-bottom: 5px;
+            color:rgba($color: white, $alpha: 0.3);
+        }
+        input:focus{
+            color:white;
+            border-bottom: 1px solid rgba($color: #FF6207, $alpha: 1);
+            transition: 0.25s ease-in-out;
+        }       
+    }
+    .btnReg{
+        margin-top: 15px;
+    }
+    .checkbox{
+        margin-top: 25px;
+    }
+    button{
+        margin: 0 auto;
+    }
+    .form{
+        padding: 20px 50px;
+        position: relative;
+        border: 2px solid rgba($color: white, $alpha: 0.3);
+        border-radius: 16px;
+    }
+    
+    .form::after{
+       position: absolute;
+       top: -5px;
+       left: 25%;
+       content: "";
+       width: 50%;
+       height: 5px;
+       background-color: #272727;
+    }
+    .form::before{
+        position: absolute;
+       bottom: -5px;
+       left: 25%;
+       content: "";
+       width: 50%;
+       height: 5px;
+       background-color: #272727;
+    }
+    .element{
+        position: relative;
+    }
+    .element::after{
+        position: absolute;
+        top: 25%;
+        left: 0;
+        content: "";
+        width: 5px;
+        height: 50%;
+        background-color: #272727;
+    }
+    .element::before{
+        position: absolute;
+        top: 25%;
+        right: -2px;
+        content: "";
+        width: 5px;
+        height: 50%;
+        z-index: 98;
+        background-color: #272727;
+    }
+    @media(max-width:300px){
+        .form{
+            border: 0px;
+            padding:0px;
+        }
+        .element::after{
+            display: none;
+        }
+        .element::before{
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.section_8{
+    .question{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .answer{
+        margin-bottom:5px ;
+    }
+    .quistion-answer{
+        border-bottom: 1px solid rgba(256, 256, 256,0.3);
+        margin-bottom: 15px;
+    }
+    button{
+        background-color: transparent;
+        border:1px solid transparent;
+        color: white;
+        font-size: 30px;
+    }
+}
