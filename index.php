@@ -14,7 +14,7 @@
 </head>
 <body>
     
-<section class="section_5">
+<section data-aos="fade-up" class="section_5">
  
     <div class="messageTable mx-2 mx-md-5 d-flex align-items-center justify-content-center">
       <div class="container-sm">
@@ -28,7 +28,7 @@
     </div>
 </section>
 
-<section class="section_6 my-5">
+<section data-aos="fade-up" class="section_6 my-5">
   <div class="container-sm">
     <div class="row">
       <div class="col d-xl-none d-block"><div class="firstUl">
@@ -72,7 +72,7 @@
   </div>
 </section>
 
-<section class="section_7 my-5">
+<section data-aos="fade-up" class="section_7 my-5">
   <div class="container-sm">
     <h2 class="mainTheme">Организаторы</h2>
     <div class="row my-3">
@@ -82,7 +82,7 @@
     </div>
   </div>
 </section>
-<section class="section_8 my-5">
+<section data-aos="fade-up" class="section_8 my-5">
   <script>function getAnswer(id){
             document.querySelector(`.section_8 .answer[data-id="${id}"]`).classList.toggle('d-none');
             const btn = document.querySelector(`.section_8 button[data-id="${id}"]`);
@@ -135,7 +135,7 @@
     </div>
   </div>
 </section>
-<section class="section_9 my-5">
+<section data-aos="fade-up" class="section_9 my-5">
   <div class="container-sm">
   <div class="row">
     <div class="firstcol col-12 col-md-6 d-flex align-items-center">
